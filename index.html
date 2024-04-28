@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./assets/icons8-list-50.png">
+  <title>Chlist</title>
+  <script src="./dexie.min.js"></script>
+  <!-- <script>
+if ("serviceWorker" in navigator) {
+  // Register a service worker hosted at the root of the
+  // site using the default scope.
+  navigator.serviceWorker.register('./sw.js').then(
+    (registration) => {
+      console.log("Service worker registration succeeded:", registration)
+    },
+    (error) => {
+      console.error(`Service worker registration failed: ${error}`)
+    },
+  )
+} else {
+  console.error("Service workers are not supported.")
+}
+
+  </script> -->
+</head>
+<body>
+  <nav>
+    <p>Menu</p>
+  </nav>
+  <h1>Chlist</h1>
+  <div class="container">
+    <form id="itemForm">
+      <label>
+        Name of Item:
+        <input type="text" id="nameInput" required>
+      </label>
+      <label>
+        Quantity:
+        <input type="number" id="quantityInput" value=1>
+      </label>
+
+      <button type="submit" id="addItemButton">
+        Add item
+      </button>
+    </form>
+  </div>
+
+  <div id="itemsDiv">
+    
+
+    <div id="totalItems">Total items remaining:</div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>

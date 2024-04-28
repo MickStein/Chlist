@@ -1,0 +1,88 @@
+* {
+  margin: unset;
+  padding: unset;
+}
+
+body {
+  background-color: beige;
+  color: brown;
+}
+
+nav {
+  background-color: bisque;
+  height: 3rem;
+  line-height: 3rem;
+  color: brown;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.container {
+  padding: 1rem;
+}
+
+#itemForm label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+#itemForm input {
+  height: 2rem;
+  text-align: center;
+  border: 1px solid brown;
+}
+
+#quantityInput {
+  width: 3rem;
+}
+
+#addItemButton {
+  border: unset;
+  background-color: bisque;
+  color: brown;
+  padding: 0.5rem;
+}
+
+#itemDiv {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  background-color: bisque;
+  margin-bottom: 0.5rem;
+}
+
+.checkbox {
+  height: 100%;
+  width: 2.5rem;
+}
+
+.itemInfo {
+  text-align: center;
+}
+
+.deleteButton {
+  margin: 0 0 0 auto;
+  border: unset;
+  background-color: #b10000;
+  color: #fff;
+  font-size: 0.8rem;
+  width: 2.5rem;
+  height: 100%;
+}
+
+.deleteButton:active {
+  margin-top: 3px;
+}
+
+.purchased {
+  background: green;
+  color: white;
+}
+
+.purchased p {
+  text-decoration: line-through;
+}

@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "dexie": "^4.0.4",
+    "dexie-export-import": "^4.1.1",
+    "workbox-cli": "^7.1.0",
+    "workbox-window": "^7.1.0"
+  },
+  "type": "module"
+}
