@@ -1,0 +1,23 @@
+{
+  "name": "Chlist",
+  "short_name": "Chlist",
+  "icons": [
+    {
+      "src": "./assets/icons8-list-50.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/icons8-list-100.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#FFFFFF",
+  "background_color": "#FFFFFF",
+  "start_url": "/Chlist/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
